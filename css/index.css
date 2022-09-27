@@ -1,0 +1,36 @@
+/* This will style the body element in a html document  */
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+/* Implementing Selectors */
+
+p {
+    color: lime;
+    
+}
+
+.container {
+    margin: 4rem;
+}
+
+.box {
+    border: 2px solid black;
+    border-radius: 2rem;
+}
+
+.padding {
+    padding: 4rem;
+}
+
+.test_class {
+    color: maroon;
+}
+
+#test_id {
+    color: purple;
+}
