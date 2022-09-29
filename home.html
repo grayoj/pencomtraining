@@ -3,62 +3,19 @@
   <title>My Site</title>
   <link rel="stylesheet" href="css/index.css" />
   <meta charset="UTF-8" />
+  <script type="text/javascript">
+    function myFunction () {
+      document.getElementById("example").innerHTML="This Stuff changed!";
+    }
+  </script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 
 <body>
-  <style>
-    p {
-      text-transform: uppercase;
-    }
-  </style>
-
-  <div class="container">
-    <div class="box">
-      <div class="padding">
-        <h1>The Flag of Nigeria</h1>
-        <hr />
-        <h6>From wikipedia, the free encyclopedia.</h6>
-
-        <blockquote>
-          This article needs additional citations for verification. Please help
-          improve this article by adding citations to reliable sources.
-          Unsourced material may be challenged and removed.
-        </blockquote>
-        <br />
-        <p>
-          The <a href="#"><b>Flag</b></a> of the
-          <b><a href="#">Federal Republic of Nigeria</a></b> was designed in
-          1959 and first officially hoisted on 1 October 1960. The flag has
-          three vertical bands of green, white, green. The two green stripes
-          represent natural wealth, and the white represents peace and
-          unity.<sup><a href="#">[1][2]</a></sup>
-        </p>
-
-        <br />
-        <!-- Adding an Image to a website.-->
-        <img
-          src="img/flag.png"
-          class="curve"
-          width="300"
-          height="150"
-          alt="This a flag"
-        />
-        <caption>
-          This is a Flag
-        </caption>
-        <br />
-        <audio controls>
-          <source
-            src="audio/yt1s.com - Eiffel 65  Im Blue Da Ba Dee  Piano Cover.mp3"
-            type="audio/mp3"
-          />
-        </audio>
-
-        <video controls>
-          <source src="sample.mp4" type="video/mp4" />
-        </video>
-      </div>
-    </div>
-  </div>
+  <p id="example">
+    Let me see if I will change!
+  </p>
+  <button type="button" onclick="myFunction()">Click Me</button>
+  <!-- This tag adds javascript  -->
 </body>
+</html>
